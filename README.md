@@ -16,15 +16,15 @@ In the `viewDidLoad()` method of your ViewController, use `MatrixView(frame:,gri
  
 **Examples**
  
-`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: nil, background: nil, colors: nil, write: nil)`
+`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: nil, background: nil, colors: nil, write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample1.mov
 
-`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.line, background: nil, colors: nil, write: nil)`
+`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.line, background: nil, colors: nil, write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample2.mov
 
-`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.circle, background: (BackgroundType.clear,nil), colors: nil, write: nil)`
+`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.circle, background: (BackgroundType.clear,nil), colors: nil, write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample3.mov
 
-`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.rectangle, background: (BackgroundType.colored,"#999900"), colors: ("FFFFFF",nil), write: nil)`
+`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.rectangle, background: (BackgroundType.colored,"#999900"), colors: ("FFFFFF",nil), write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample4.mov
 
-`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.text, background: (BackgroundType.colored,"#999900"), colors: ("","#FFFFCC"), write: (text: "ケtイrタyテoリuカt利", font: nil, size: CGFloat(36)))`
+`let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.text, background: (BackgroundType.colored,"#999900"), colors: ("","#FFFFCC"), write: (text: "ケtイrタyテoリuカt利", font: nil, size: CGFloat(36)))` -> Watch the resulting UIView in ./examples/MatrixExample5.mov
 
 ### 2. Display
 add your newly created MatrixView object to a view of your choice.
