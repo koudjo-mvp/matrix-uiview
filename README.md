@@ -18,11 +18,27 @@ In the `viewDidLoad()` method of your ViewController, use `MatrixView(frame:,gri
  
 `let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: nil, background: nil, colors: nil, write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample1.mov
 
+<video width="320" height="240" controls>
+  <source src="./examples/MatrixExample1.mov" type="video/mp4">
+</video>
+
 `let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.line, background: nil, colors: nil, write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample2.mov
+
+<video width="320" height="240" controls>
+  <source src="./examples/MatrixExample2.mov" type="video/mp4">
+</video>
 
 `let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.circle, background: (BackgroundType.clear,nil), colors: nil, write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample3.mov
 
+<video width="320" height="240" controls>
+  <source src="./examples/MatrixExample3.mov" type="video/mp4">
+</video>
+
 `let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.rectangle, background: (BackgroundType.colored,"#999900"), colors: ("FFFFFF",nil), write: nil)` -> Watch the resulting UIView in ./examples/MatrixExample4.mov
+
+<video width="320" height="240" controls>
+  <source src="./examples/MatrixExample4.mov" type="video/mp4">
+</video>
 
 `let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.text, background: (BackgroundType.colored,"#999900"), colors: ("","#FFFFCC"), write: (text: "ケtイrタyテoリuカt利", font: nil, size: CGFloat(36)))` -> Watch the resulting UIView in ./examples/MatrixExample5.mov
 
