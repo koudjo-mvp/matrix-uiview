@@ -26,6 +26,10 @@ In the `viewDidLoad()` method of your ViewController, use `MatrixView(frame:,gri
 
 `let mycustomview = MatrixView(frame: mainframe, grid_dim: (10,20), mode: CellType.text, background: (BackgroundType.colored,"#999900"), colors: ("","#FFFFCC"), write: (text: "ケtイrタyテoリuカt利", font: nil, size: CGFloat(36)))` -> Watch the resulting UIView in ./examples/MatrixExample5.mov
 
+<video width="320" height="240" controls>
+  <source src="./examples/MatrixExample5.mov" type="video/mp4">
+</video>
+
 ### 2. Display
 add your newly created MatrixView object to a view of your choice.
 
