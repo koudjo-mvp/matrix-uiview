@@ -56,7 +56,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var m_view: MatrixView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
